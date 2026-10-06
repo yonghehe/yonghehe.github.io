@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Hermes Mail Digest</title>
+<style>
+  body { margin: 0 auto; max-width: 46rem; padding: 2.5rem 1.25rem 4rem; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  p, li { color: #333; }
+  .sub { color: #666; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin-top: .5rem; }
+  th, td { text-align: left; border-bottom: 1px solid #e5e5e5; padding: .45rem .4rem; font-size: .95rem; vertical-align: top; }
+  footer { margin-top: 3rem; border-top: 1px solid #e5e5e5; padding-top: 1rem; color: #666; font-size: .9rem; }
+  a { color: #1a56db; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Hermes Mail Digest &middot; last updated 6 October 2026</p>
+
+<p>
+  Hermes Mail Digest ("the app") is a private, single-user automation operated by its owner on the owner's
+  own server. This policy describes how the app accesses, uses, stores, and shares Google user data. The
+  only Google Account it ever accesses is the owner's own account, with the owner's explicit consent.
+</p>
+
+<h2>1. What data the app accesses</h2>
+<table>
+  <tr><th>Google service</th><th>Scope requested</th><th>What it is used for</th></tr>
+  <tr><td>Gmail (read)</td><td>gmail.readonly</td><td>Reading the owner's inbox to identify messages that need a reply, an action, or a deadline.</td></tr>
+  <tr><td>Gmail (modify)</td><td>gmail.modify</td><td>Available to the owner for optional label changes the owner explicitly requests. Not used automatically.</td></tr>
+  <tr><td>Gmail (send)</td><td>gmail.send</td><td>Available to the owner for optional replies the owner explicitly requests and approves. Never used automatically.</td></tr>
+  <tr><td>Calendar</td><td>calendar</td><td>Reading the owner's calendar to place commitments and deadlines in context.</td></tr>
+  <tr><td>Drive, Docs, Sheets</td><td>drive, documents, spreadsheets</td><td>Available to the owner for documents the owner asks the app to read or produce.</td></tr>
+  <tr><td>Contacts</td><td>contacts.readonly</td><td>Matching senders to names the owner already knows.</td></tr>
+</table>
+
+<h2>2. How the data is used</h2>
+<ul>
+  <li>To build a short daily briefing for the owner from the owner's own mail, and to answer the owner's requests about the owner's own data.</li>
+  <li>Data is used only for these purposes. It is not used for advertising, profiling, credit assessment, or any purpose unrelated to delivering this personal tool to its owner.</li>
+  <li>The app does not use Google user data to train, fine-tune, or otherwise develop machine learning or artificial intelligence models.</li>
+  <li>Automated processing is performed by large language models acting on the owner's behalf. The owner selects and pays for those model providers directly; message content is transmitted to the selected provider only to generate the owner's briefing and is not retained by the app for any other purpose beyond the local copy described below.</li>
+</ul>
+
+<h2>3. Storage and retention</h2>
+<ul>
+  <li>An OAuth refresh token is stored in a local credentials file on the owner's own server, readable only by the owner's operating system account.</li>
+  <li>Briefing state (a small text list of outstanding items, each linked to a Gmail message identifier) and a per-day markdown file of generated briefings are stored locally on the owner's server.</li>
+  <li>Message bodies are read transiently while a briefing is generated. They are not copied into any external database, and no mail data is stored outside the owner's server.</li>
+  <li>Local state can be deleted at any time by the owner, which removes all stored briefing data.</li>
+</ul>
+
+<h2>4. Sharing</h2>
+<ul>
+  <li>Google user data is not sold, rented, or shared with any third party.</li>
+  <li>It is not transferred to advertisers, data brokers, information resellers, or credit bureaus.</li>
+  <li>It is not used to determine creditworthiness or for lending purposes.</li>
+  <li>The only outbound destinations are the owner's own private chat channel (the generated briefing) and the model provider the owner has configured to generate it.</li>
+</ul>
+
+<h2>5. Limited Use disclosure</h2>
+<p>
+  The app's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements. Specifically: data is used only to provide the user-facing
+  features described above; it is not transferred to others except as necessary to provide those features,
+  to comply with applicable law, or as part of a merger or acquisition; it is not used for advertising; and
+  no human reads it, except for the owner reading their own data, for security purposes, to comply with law,
+  or with the owner's explicit consent.
+</p>
+
+<h2>6. Revoking access and deleting data</h2>
+<ul>
+  <li>Access can be revoked at any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Revocation
+      immediately ends the app's ability to reach the account.</li>
+  <li>Deleting the local credentials file and local state directory removes all stored tokens and briefing data.</li>
+</ul>
+
+<h2>7. Changes and contact</h2>
+<p>
+  Changes to this policy are published on this page. This is a personal tool with a single user, so changes
+  affect only that user, who is also its developer.
+</p>
+<p>Email: <a href="mailto:chanyonghweehi@gmail.com">chanyonghweehi@gmail.com</a></p>
+
+<footer>
+  <a href="./index.html">Back to the app home page</a>
+</footer>
+
+</body>
+</html>
